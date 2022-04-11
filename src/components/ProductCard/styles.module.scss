@@ -1,0 +1,149 @@
+.card {
+  position: relative;
+  border-radius: 0.25rem;
+  width: 100%;
+  height: 25rem;
+
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  transition: box-shadow 200ms ease 0s;
+
+  &:hover {
+    box-shadow: rgb(40 41 61 / 4%) 0px 4px 8px, rgb(96 97 112 / 16%) 0px 8px 16px;
+  }
+}
+
+.extra {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  padding: 0px 0.75rem;
+}
+
+.madeToOrderButton {
+  height: 2rem;
+  color: #fff;
+  background: #251242;
+  font-weight: 500;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  border: none;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.favoriteButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.5rem 0px 0px;
+  text-decoration: none;
+  overflow: hidden;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.thumbnail {
+  object-fit: contain;
+  height: 8.25rem;
+  width: auto;
+}
+
+.information {
+  padding: 0px 1rem;
+}
+
+.title {
+  width: 100%;
+}
+
+.titleText {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+
+  height: 3.375rem;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.originalPrice {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 400;
+  height: 1rem;
+  text-decoration: line-through;
+}
+
+.price {
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  font-weight: 600;
+  color: #B12D32;
+}
+
+.priceInstallments {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  height: 1.125rem;
+}
+
+.actions {
+  flex-shrink: 0;
+  display: flex;
+  flex: 1;
+  height: 2.25rem;
+  width: 100%;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.addCartButton {
+  border: none;
+  // background: #681727;
+  background: #B12D32;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  border-radius: 6px;
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 0.75rem;
+  
+}
+

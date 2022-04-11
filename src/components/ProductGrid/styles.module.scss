@@ -1,0 +1,16 @@
+$medium: 1024px;
+$large: 1260px;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(208px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  
+  @media screen and (min-width: $medium) {
+    grid-template-columns: repeat(3, minmax(208px, 1fr));
+  }
+  @media screen and (min-width: $large) {
+    grid-template-columns: repeat(4, minmax(208px, 1fr));
+  }
+}

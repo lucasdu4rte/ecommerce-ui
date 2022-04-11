@@ -1,0 +1,52 @@
+.listContent {
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.listAside {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+}
+
+.listConteiner {
+
+}
+
+.listOrdenation {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  label {
+    font-weight: 700;
+  }
+  
+  label > select {
+    margin-left: 0.5rem;
+  }
+}
+
+.productsCount {
+  display: flex;
+  align-items: center;
+  
+  strong {
+    font-weight: 600;
+    margin-right: 0.3rem;
+  }
+}
+
+.pagination {
+  
+}
