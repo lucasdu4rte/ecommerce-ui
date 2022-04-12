@@ -7,20 +7,20 @@ export function Filter() {
       <div className={styles.title}>Categorias</div>
       <div className={styles.content}>
         <ul className={styles.categoriesList}>
-          <a href="#Castiçais">
-            <li className={styles.categoryActive}>Castiçais</li>
+          <a href="#Camisetas">
+            <li className={styles.categoryActive}>Camisetas</li>
           </a>
-          <a href="#Apliques">
-            <li className={styles.category}>Apliques</li>
+          <a href="#Calças">
+            <li className={styles.category}>Calças</li>
           </a>
-          <a href="#Ostensórios">
-            <li className={styles.category}>Ostensórios</li>
+          <a href="#Tênis">
+            <li className={styles.category}>Tênis</li>
           </a>
-          <a href="#Relicários">
-            <li className={styles.category}>Relicários</li>
+          <a href="#Bonés">
+            <li className={styles.category}>Bonés</li>
           </a>
-          <a href="#Tecas">
-            <li className={styles.category}>Tecas</li>
+          <a href="#Acessórios">
+            <li className={styles.category}>Acessórios</li>
           </a>
         </ul>
       </div>

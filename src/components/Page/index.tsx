@@ -43,12 +43,67 @@ export function Page() {
           </div>
           <main>
             <ProductGrid>
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
-              <ProductCard />
+              <ProductCard
+                title="Camiseta Reserva"
+                originalPrice="R$ 3800,00"
+                price="R$ 3500,00"
+                priceInstallments="ou 3x R$ 667,00"
+                thumbnail="https://static.netshoes.com.br/produtos/camiseta-reserva-caraca-muleke-masculina/14/B67-2019-014/B67-2019-014_zoom1.jpg?ts=1640574543&ims=544x"
+                link="/p/camiseta-reserva"
+                isFavorite
+                toggleFavorite={() => null}
+                addToCart={() => null}
+              />
+              <ProductCard
+                title="Camiseta Reserva"
+                price="R$ 3500,00"
+                priceInstallments="ou 3x R$ 667,00"
+                thumbnail="https://static.netshoes.com.br/produtos/camiseta-reserva-caraca-muleke-masculina/14/B67-2019-014/B67-2019-014_zoom1.jpg?ts=1640574543&ims=544x"
+                link="/p/camiseta-reserva"
+                isFavorite
+                toggleFavorite={() => null}
+                addToCart={() => null}
+              />
+              <ProductCard
+                title="Camiseta Reserva"
+                price="R$ 3500,00"
+                priceInstallments="ou 3x R$ 667,00"
+                thumbnail="https://static.netshoes.com.br/produtos/camiseta-reserva-caraca-muleke-masculina/14/B67-2019-014/B67-2019-014_zoom1.jpg?ts=1640574543&ims=544x"
+                link="/p/camiseta-reserva"
+                isFavorite
+                toggleFavorite={() => null}
+                addToCart={() => null}
+              />
+              <ProductCard
+                title="Camiseta Reserva"
+                price="R$ 3500,00"
+                priceInstallments="ou 3x R$ 667,00"
+                thumbnail="https://static.netshoes.com.br/produtos/camiseta-reserva-caraca-muleke-masculina/14/B67-2019-014/B67-2019-014_zoom1.jpg?ts=1640574543&ims=544x"
+                link="/p/camiseta-reserva"
+                isFavorite
+                toggleFavorite={() => null}
+                addToCart={() => null}
+              />
+              <ProductCard
+                title="Camiseta Reserva"
+                price="R$ 3500,00"
+                priceInstallments="ou 3x R$ 667,00"
+                thumbnail="https://static.netshoes.com.br/produtos/camiseta-reserva-caraca-muleke-masculina/14/B67-2019-014/B67-2019-014_zoom1.jpg?ts=1640574543&ims=544x"
+                link="/p/camiseta-reserva"
+                isFavorite={false}
+                toggleFavorite={() => null}
+                addToCart={() => null}
+              />
+              <ProductCard
+                title="Camiseta Reserva"
+                price="R$ 3500,00"
+                priceInstallments="ou 3x R$ 667,00"
+                thumbnail="https://static.netshoes.com.br/produtos/camiseta-reserva-caraca-muleke-masculina/14/B67-2019-014/B67-2019-014_zoom1.jpg?ts=1640574543&ims=544x"
+                link="/p/camiseta-reserva"
+                isFavorite
+                toggleFavorite={() => null}
+                addToCart={() => null}
+              />
             </ProductGrid>
           </main>
           <div className={styles.pagination}></div>
