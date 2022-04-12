@@ -16,7 +16,9 @@
 }
 
 .extra {
-  position: relative;
+  position: absolute;
+  z-index: 2;
+
   display: flex;
   justify-content: flex-end;
   box-sizing: border-box;
@@ -42,8 +44,6 @@
   border: none;
   background: transparent;
   cursor: pointer;
-  height: 3rem;
-  width: 3rem;
   
   display: flex;
   align-items: center;
@@ -65,7 +65,7 @@
 
 .thumbnail {
   object-fit: contain;
-  height: 8.25rem;
+  height: 14rem;
   width: auto;
 }
 
@@ -83,7 +83,7 @@
   font-weight: 600;
   margin-top: 0.5rem;
 
-  height: 3.375rem;
+  height: 2rem;
 
   overflow: hidden;
   text-overflow: ellipsis;
@@ -134,8 +134,7 @@
 
 .addCartButton {
   border: none;
-  // background: #681727;
-  background: #B12D32;
+  background: #681727;
   color: #fff;
   font-weight: 500;
   cursor: pointer;
